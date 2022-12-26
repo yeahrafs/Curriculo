@@ -1,0 +1,103 @@
+body {
+    /*font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cabecalho{
+    display: inline-block;
+    text-align: center;
+    background: #c8c8d1;
+    width:77%;
+    margin-left: 10px;
+    padding: 15px;
+
+}
+
+.cabecalho:hover, tr:hover{
+    color:rgb(90, 86, 90);
+}
+
+.corpo {
+    display: inline-block;
+    background: #c8c8d1;
+    width:77%;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.fundoImagem {
+    float: left;
+    position: relative;
+    background-color: #d8e5ff;
+    width:340px;
+    height: 1396px;
+    
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+table{
+    
+    background: rgb(216, 239, 255);
+    margin: 20px 10px 40px;
+    text-align: left;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 35px;
+}
+
+button{
+    background: #d8e5ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #a0a0d37e;
+    border-style: solid;
+    padding: 15px 30px;
+}
+
+button:active{
+    cursor: pointer;
+    background: #8080ca77;
+    border-style: solid;
+    padding: 15px 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px){
+
+
+    .fundoImagem, .corpo, .cabecalho{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 0;
+    }
+    
+    .fundoImagem h2{
+        text-align: center;
+
+    }
+    table {
+        margin: auto;
+        }
+
+
+}
